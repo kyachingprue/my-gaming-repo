@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Work Sans", sans-serif;
+}
+/* Navigation style starts */
+.nav-container{
+  width: 100%;
+  height: 130px;
+  margin: 0 auto;
+  box-shadow: 0 4px 4px gray;
+}
+.nav-content-container{
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-gamer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 55px;
+  gap: 1.25rem;
+}
+.nav-icon{
+  width: 88px;
+  height: 40px;
+}
+.nav-title{
+  width: 147px;
+  height: 55px;
+
+}
+.nav-title h3{
+  font-weight: 700;
+  font-size: 45px;
+}
+.nav-description{
+  width: 505px;
+  height: 56px;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-description p{
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.nav-description a{
+  text-decoration: none;
+    color: rgba(60, 53, 79, 1);
+}
+.nav-btn-primary button{
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 8px;
+  border: none;
+}
+.nav-btn-primary a{
+  font-weight: 400;
+  font-size: 1.1rem;
+  
+}
+.nav-btn-primary i{
+  margin-left: 1rem;
+}
+/* Navigation style ends */
+/* Header style starts */
+.header-container{
+  width: 100%;
+  height: 710px;
+  margin: 0 auto;
+  border: 2px solid aqua;
+}
+.header-content-container{
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  border: 2px solid steelblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content-banner{
+  width: 50%;
+  height: 700px;
+  border: 2px solid skyblue;
+  background-image: url("resources/Group 18.png");
+}
+.banner-content{
+  width: 365px;
+  height: 404px;
+  margin-top: 9.25rem;
+  border: 2px solid green;
+}
+.banner-title-1{
+  width: 100%;
+  height: 56px;
+  border: 2px solid tomato;
+
+}
+.banner-title-1 h4{
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+}
+.banner-title-2{
+  width: 100%;
+  height: 111px;
+  margin-top: 4px;
+
+}
+.banner-title-2 h2{
+  font-weight: 800;
+  font-size: 95px;
+  /* background-image: linear-gradient(
+    rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1)
+  ); */
+  color: rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1); 
+  background-color: transparent;
+  filter:drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+.banner-description{
+  width: 100%;
+  height: 110px;
+  border: 2px solid red;
+  margin-top: 1.5rem;
+}
+.banner-description p{
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.header-btn-primary{
+  width: 100%;
+  height: 65px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid seagreen;
+}
+.header-btn-primary button{
+  width: 50%;
+  height: 62px;
+  border: 2px solid black;
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: rgba(255, 66, 165, 1);
+  border: none;
+  border-radius: 3rem;
+}
+
+.header-btn-primary a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-image-property{
+  width: 50%;
+  height: 681px;
+  margin-top: 1rem;
+}
+.header-image-property img{
+  width: 100%;
+  height: 100%;
+}
+/* Header style ends */
